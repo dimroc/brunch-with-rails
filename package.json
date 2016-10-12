@@ -1,23 +1,27 @@
 {
-  "name": "brunch-app",
-  "description": "Description",
-  "author": "Your Name",
+  "name": "brunch-with-rails",
+  "description": "Minimal brunch setup that builds its output into Rails' app/assets/(javascripts|stylesheets). Modeled after the Phoenix Framework's use of Brunch.",
+  "author": "Dimitri Roche",
   "version": "0.1.0",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/dimroc/brunch-with-rails"
   },
   "scripts": {
-    "start": "brunch watch --server",
-    "build": "brunch build --production"
+    "start": "brunch watch"
   },
-  "dependencies": {},
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "jquery": "^3.1.1"
+  },
   "devDependencies": {
+    "babel-brunch": "^6.0.4",
     "brunch": "^2.0.0",
     "javascript-brunch": "^2.0.0",
     "css-brunch": "^2.0.0",
     "uglify-js-brunch": "^2.0.0",
     "clean-css-brunch": "^2.0.0",
+    "sass-brunch": "^2.7.0",
     "auto-reload-brunch": "^2.0.0"
   }
 }
