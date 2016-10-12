@@ -1,8 +1,10 @@
 // See http://brunch.io for documentation.
-exports.files = {
-  javascripts: {joinTo: 'javascripts/client.js'},
-  stylesheets: {joinTo: 'stylesheets/client.css'},
-  templates: {joinTo: 'javascripts/client.js'},
+exports.config = {
+  files: {
+    javascripts: {joinTo: 'javascripts/client.js'},
+    stylesheets: {joinTo: 'stylesheets/client.css'},
+    templates: {joinTo: 'javascripts/client.js'}
+  },
   paths: {
     public: 'app/assets',
     watched: ['client']
@@ -24,3 +26,4 @@ exports.files = {
     }
   }
 };
+
