@@ -15,6 +15,7 @@
     "jquery": "^3.1.1"
   },
   "devDependencies": {
+    "auto-reload-brunch": "^2.7.1",
     "babel-brunch": "^6.0.4",
     "brunch": "^2.0.0",
     "javascript-brunch": "^2.0.0",
