@@ -20,7 +20,7 @@ including React and ES2016. It already has sass, Babel, and autoreload out the b
     * [Brunch](http://brunch.io): `npm install -g brunch`
 * Run:
     * `cd rails-application` Make sure you are in the top level of your Rails directory.
-    * `brunch new -s brunch-with-rails`
+    * `brunch new -s dimroc/brunch-with-rails`
     * `brunch watch` — watches the project with continuous rebuild and refreshes the browser on changes.
     * Run `rails server` to serve up the compiled files from app/assets/(javascripts|stylesheets).
 * Learn:
