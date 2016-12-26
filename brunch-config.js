@@ -6,7 +6,7 @@ exports.config = {
     templates: {joinTo: 'javascripts/client.js'}
   },
   paths: {
-    public: 'app/assets',
+    public: 'vendor/assets',
     watched: ['client']
   },
   plugins: {

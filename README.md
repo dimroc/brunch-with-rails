@@ -22,10 +22,10 @@ including React and ES2016. It already has sass, Babel, and autoreload out the b
     * `cd rails-application` Make sure you are in the top level of your Rails directory.
     * `brunch new -s dimroc/brunch-with-rails`
     * `brunch watch` — watches the project with continuous rebuild and refreshes the browser on changes.
-    * Run `rails server` to serve up the compiled files from app/assets/(javascripts|stylesheets).
+    * Run `rails server` to serve up the compiled files from vendor/assets/(javascripts|stylesheets).
 * Learn:
-    * Write your code in `client/` dir. It will be processed through the node pipeline and written to `app/assets/javascripts/client.js`
-    * Place static files you want to be copied from `client/assets/` to `app/assets/`.
+    * Write your code in `client/` dir. It will be processed through the node pipeline and written to `vendor/assets/javascripts/client.js`
+    * Place static files you want to be copied from `client/assets/` to `vendor/assets/`.
     * [Brunch site](http://brunch.io), [Getting started guide](https://github.com/brunch/brunch-guide#readme)
 
 
